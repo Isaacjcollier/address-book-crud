@@ -45,6 +45,8 @@
 * Address
 * State
 * Zip
+* Date
+* Duration
 
 ---
 
