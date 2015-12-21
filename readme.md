@@ -136,7 +136,7 @@
 
 # Refrigerator / Pantry Manager
 
-> Manage the quantiy/expiration of items in your fridge/pantry
+> Manage the quantity/expiration of items in your fridge/pantry
 
 * Name
 * Quantity
