@@ -111,6 +111,16 @@
 
 ---
 
+# Happiness Tracker
+
+> Keep track of how happy you are
+
+* Date
+* Happiness Rating
+* Event Description
+
+---
+
 # Beer Tracker
 
 > Keep track of the beers you have tried.
