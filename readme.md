@@ -104,3 +104,11 @@
 * Exercise Type
 * Date
 * Duration
+
+# Happiness Tracker
+
+> Keep track of how happy you are
+
+* Date
+* Happiness Rating
+* Event Description
