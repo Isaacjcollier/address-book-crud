@@ -74,6 +74,8 @@
 * State
 * Zip Code
 
+---
+
 # Call Log
 
 > Keep track of your calls.
@@ -83,6 +85,8 @@
 * Date
 * Was a voicemail left?
 * Incoming or Outgoing
+
+---
 
 # Health Tracker
 
@@ -104,3 +108,28 @@
 * Exercise Type
 * Date
 * Duration
+
+---
+
+# Beer Tracker
+
+> Keep track of the beers you have tried.
+
+Name
+Date Tried
+Location Tried
+Description
+Notes
+Rating
+
+---
+
+# Refrigerator / Pantry Manager
+
+> Manage the quantiy/expiration of items in your fridge/pantry
+
+Name
+Quantity
+Purchase Date
+Expiration Date
+Description
