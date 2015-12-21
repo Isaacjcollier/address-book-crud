@@ -125,12 +125,12 @@
 
 > Keep track of the beers you have tried.
 
-Name
-Date Tried
-Location Tried
-Description
-Notes
-Rating
+* Name
+* Date Tried
+* Location Tried
+* Description
+* Notes
+* Rating
 
 ---
 
@@ -138,8 +138,8 @@ Rating
 
 > Manage the quantiy/expiration of items in your fridge/pantry
 
-Name
-Quantity
-Purchase Date
-Expiration Date
-Description
+* Name
+* Quantity
+* Purchase Date
+* Expiration Date
+* Description
