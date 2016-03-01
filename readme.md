@@ -33,6 +33,8 @@
 * Notes
 * Type (Betamax/VHS/DVD/Blueray/Download)
 
+[Make a PR against this Repo](https://github.com/gSchool/movie-inventory-crud)
+
 ---
 
 # Events
@@ -75,6 +77,8 @@
 * Address
 * State
 * Zip Code
+
+[Make a PR against this Repo](https://github.com/gSchool/address-book-crud)
 
 ---
 
