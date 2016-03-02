@@ -56,7 +56,7 @@
 * Year
 * Notes
 
-[Instructions](./wine-cellar-api/readme.md)
+[Instructions](./wine-api/readme.md)
 
 ---
 
