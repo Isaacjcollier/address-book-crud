@@ -3,20 +3,11 @@
 
 * Here are some topics you can use to practice creating CRUD apps.
 
-* These are bare minimum, get you started examples.
+* CRUD Applications with detailed instructions are at the top. More examples are at the bottom.
 
 * Think about and diagram the relationships in the application before you start coding.
 
 * You will probably need to use more than 1 DB table and multiple PK/FK relationships for most examples.
-
----
-
-# Todo List
-
-> A list of things todo.
-
-* Task (Text)
-* Done (True/False)
 
 ---
 
@@ -33,7 +24,7 @@
 * Notes
 * Type (Betamax/VHS/DVD/Blueray/Download)
 
-[Make a PR against this Repo](https://github.com/gSchool/movie-inventory-crud)
+[Instructions](./movie-inventory-crud/readme.md)
 
 ---
 
@@ -50,6 +41,8 @@
 * Date
 * Duration
 
+[Instructions](./events-crud/readme.md)
+
 ---
 
 # Wine Cellar
@@ -63,7 +56,7 @@
 * Year
 * Notes
 
-[Make a PR against this Repo](https://github.com/gSchool/wine-cellar-api)
+[Instructions](./wine-cellar-api/readme.md)
 
 ---
 
@@ -78,7 +71,16 @@
 * State
 * Zip Code
 
-[Make a PR against this Repo](https://github.com/gSchool/address-book-crud)
+[Instructions](./address-book-crud/readme.md)
+
+---
+
+# Todo List
+
+> A list of things todo.
+
+* Task (Text)
+* Done (True/False)
 
 ---
 
