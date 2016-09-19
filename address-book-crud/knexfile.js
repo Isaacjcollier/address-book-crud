@@ -1,4 +1,4 @@
-const databaseName = 'address_book';
+const databaseName = 'address_book_crud';
 
 module.exports = {
   development: {
