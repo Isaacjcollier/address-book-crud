@@ -8,6 +8,7 @@ exports.seed = function(knex, Promise) {
         knex('contacts').insert({
           first_name: 'Homer',
           last_name: 'Simpson',
+          phone_number: '111-454-8232',
           email_address: 'homer@simpsons.com',
           image_url:'/user_images/Homer_Simpson.png',
           user_address_id: 1
@@ -15,6 +16,7 @@ exports.seed = function(knex, Promise) {
         knex('contacts').insert({
           first_name: 'Marge',
           last_name: 'Simpson',
+          phone_number: '111-454-8232',
           email_address: 'marge@simpsons',
           image_url: '/user_images/Marge_Simpson.png',
           user_address_id: 1
@@ -22,13 +24,15 @@ exports.seed = function(knex, Promise) {
         knex('contacts').insert({
           first_name: 'Barney',
           last_name: 'Gumble',
+          phone_number: '303-252-8888',
           email_address: 'barney@simpsons.com',
-          image_url: '/user_images/Barney_Gumble',
+          image_url: '/user_images/Barney_Gumble.png',
           user_address_id: 2
         }),
         knex('contacts').insert({
           first_name: 'Ned',
           last_name: 'Flanders',
+          phone_number: '719-414-8232',
           email_address: 'ned@simpsons.com',
           image_url:'/user_images/Ned_Flanders.png',
           user_address_id: 3

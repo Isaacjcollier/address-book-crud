@@ -6,12 +6,19 @@
 
   <div class="container">
     <h1>Address Book</h1>
+    <button class="btn-success" type="button" name="button"><a href="/contacts/new">New Contact</a></button>
     <hr>
     {% for user in users %}
-      <div class="col-md-8">
+      <div class="col-md-6" style="border:solid black 2px; margin:5px; padding:10px 15px;">
+        <h1>{{user.id}}</h1>
         <h3>{{user.first_name}} {{user.last_name}}</h3>
-        <p>{{user.address | dump }}</p>
-        <p>{{user.address}}</p>
+        <h3>{{user.phone_number}}</h3>
+        <h3>{{user.email_address}}</h3>
+        <p>{{user.address.line_1}} {{user.address.line_2}}</p>
+        <p>{{user.address.zip}}</p>
+        <img style="float:right" src="{{user.image_url}}" />
+        <button class="btn-warning" id="delete" type="submit"
+        data-id="{{user.id}}">Delete</button>
       </div>
     {% endfor %}
   </div>
