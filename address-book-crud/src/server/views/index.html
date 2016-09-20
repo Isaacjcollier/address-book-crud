@@ -5,8 +5,15 @@
 {% block content %}
 
   <div class="container">
-    <h1>{{title}}</h1>
+    <h1>Address Book</h1>
     <hr>
+    {% for user in users %}
+      <div class="col-md-8">
+        <h3>{{user.first_name}} {{user.last_name}}</h3>
+        <p>{{user.address | dump }}</p>
+        <p>{{user.address}}</p>
+      </div>
+    {% endfor %}
   </div>
 
 
