@@ -1,6 +1,6 @@
 (function () {
 
-  $('#delete').on('click', (event) => {
+  $(document).on('click','#delete', (event) => {
     const $deleteContactId = $(event.target).attr('data-id');
     event.preventDefault();
     console.log('sanity check');
@@ -9,7 +9,7 @@
       type: 'DELETE',
       url: `http://localhost:3000/contacts/${$deleteContactId}/delete`
     })
-    .done(location.reload())
-  })
-  
+    .done(location.reload());
+  });
+
 })();

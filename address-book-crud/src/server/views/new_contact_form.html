@@ -6,55 +6,59 @@
   <div class="container">
     <h1>Address Book: New Contact</h1>
     <hr>
+
     <!-- form -->
-    <form action="index.html" method="post">
+    <form action="/contacts/new" method="post">
       <div class="form-group">
         <p>First Name:</p>
-        <input class="form-control" type="text" name="name" value="">
+        <input class="form-control" type="text" name="first_name" value="Bob">
       </div>
       <div class="form-group">
         <p>Last Name:</p>
-        <input class="form-control" type="text" name="name" value="">
+        <input class="form-control" type="text" name="last_name" value="Jones">
       </div>
       <div class="form-group">
         <p>Phone Number:</p>
-        <input class="form-control" type="text" name="name" value="">
+        <input class="form-control" type="text" name="phone_number" value="7193237372">
       </div>
       <div class="form-group">
         <p>Email:</p>
-        <input class="form-control" type="text" name="name" value="">
+        <input class="form-control" type="text" name="email_address" value="example@exam.com">
       </div>
       <div class="form-group">
         <p>Image URL:</p>
-        <input class="form-control" type="text" name="name" value="">
+        <input class="form-control" type="text" name="image_url" value="https://static.simpsonswiki.com/images/thumb/6/65/Bart_Simpson.png/200px-Bart_Simpson.png">
       </div>
       <hr><hr>
       <!-- Bot Line -->
-      <div class="col-md-2 form-group">
-        <p>Line 1:</p>
-        <input class="form-control" type="text" name="name" value="">
+      <div class="container">
+
+        <div class="col-md-2 form-group">
+          <p>Line 1:</p>
+          <input class="form-control" type="text" name="line_1" value="1424 Southmoore ln">
+        </div>
+        <div class="col-md-2 form-group">
+          <p>Line 2:</p>
+          <input class="form-control" type="text" name="line_2" value="apt#125">
+        </div>
+        <div class="col-md-2 form-group">
+          <p>City:</p>
+          <input class="form-control" type="text" name="city" value="Colorado Springs">
+        </div>
+        <div class="col-md-2 form-group">
+          <p>Zip:</p>
+          <input class="form-control" type="text" name="zip" value="80090">
+        </div>
       </div>
-      <div class="col-md-2 form-group">
-        <p>Line 2:</p>
-        <input class="form-control" type="text" name="name" value="">
+      <div class="container">
+      <button class="btn btn-success" type="submit">Submit</button>
+        <a class="btn btn-warning" href="/" style="float:right;">Cancel</a>
       </div>
-      <div class="col-md-2 form-group">
-        <p>City:</p>
-        <input class="form-control" type="text" name="name" value="">
-      </div>
-      <div class="col-md-2 form-group">
-        <p>State:</p>
-        <input class="form-control" type="text" name="name" value="">
-      </div>
-      <div class="col-md-2 form-group">
-        <p>Zip:</p>
-        <input class="form-control" type="text" name="name" value="">
-      </div>
+
     </form>
+
   </div>
 
-  <div class="container">
-    <a class="btn btn-warning" href="/">Cancel</a>
-  </div>
+
 
 {% endblock %}
